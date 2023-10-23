@@ -1,0 +1,52 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{\LaTeX Workshop}
+\author{Haley Kottler}
+\date{November 2023}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amsthm,amssymb, mathrsfs, fullpage} % This stuff sets up your document
+\usepackage{graphicx, bbold}
+\usepackage{enumerate}
+\usepackage{hyperref, todonotes}
+\usepackage{tikz, dirtytalk}
+\usetikzlibrary{shapes,decorations,arrows,calc,arrows.meta,fit,positioning}
+
+\newcommand{\powerset}{\raisebox{.15\baselineskip}{\Large\ensuremath{\wp}}}
+
+\newcommand{\N}{\mathbb{N}} % This creates a shortcut for writing the black board bold N used to denote the natural numbers. \N
+
+\newcommand{\Z}{\mathbb{Z}} % This creates a shortcut for writing the black board bold Z used to denote the natural numbers. \Z
+
+\newcommand{\R}{\mathbb{R}} %This creates a shortcut for writing the black board bold R used to denote the real numbers. \R
+
+\newcommand{\C}{\mathbb{C}} %This creates a shortcut for writing the black board bold C used to denote the complex numbers. \C
+
+\newcommand{\Q}{\mathbb{Q}} %Shortcut for the Q used for rational numbers \Q
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\p}{\mathbb{P}}
+
+% Basic format for short cuts is \newcommand{\whateveryouwantyourshortcuttobe}{\whatevertheactualcommandis}
+
+% This next chunk sets it up so you can do stuff like \begin{theorem} and get a nice theorem setup
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem*{remark}{Remark}
+\newtheorem{definition}{Definition}[section]
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{observation}{Observation}[section]
+\newtheorem{claim}{Claim}[section]
+\newtheorem{exercise}{Exercise}[section]
+\newtheorem{problem}{Problem}[section]
+\newtheorem*{answer}{Answer}
+
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\bibliographystyle{plain}
+\bibliography{bibliography}
+\end{document}
