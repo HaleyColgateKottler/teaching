@@ -17,7 +17,7 @@
 
 \newcommand{\N}{\mathbb{N}} % This creates a shortcut for writing the black board bold N used to denote the natural numbers. \N
 
-\newcommand{\Z}{\mathbb{Z}} % This creates a shortcut for writing the black board bold Z used to denote the natural numbers. \Z
+\newcommand{\Z}{\mathbb{Z}} % This creates a shortcut for writing the black board bold Z used to denote the integer numbers. \Z
 
 \newcommand{\R}{\mathbb{R}} %This creates a shortcut for writing the black board bold R used to denote the real numbers. \R
 
